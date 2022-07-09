@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/platzi/async-landing.git"
+    "url": "git+https://github.com/sebasje2010/async-landing.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/platzi/async-landing/issues"
+    "url": "https://github.com/sebasje2010/async-landing/issues"
   },
-  "homepage": "https://github.com/platzi/async-landing#readme"
+  "homepage": "https://github.com/sebasje2010/async-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
